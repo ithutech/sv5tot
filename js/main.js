@@ -1,5 +1,5 @@
 
-var script_url = "https://script.google.com/macros/s/AKfycbzegZl-ZdwhA52RQ44KNvCXyS8fSv6z8-J_Kd-kLQjEp6BjdI4/exec";
+var script_url = "https://script.google.com/macros/s/AKfycby-B0sNhoJiAlY-9JbayAyOV6sz--4OXQBnBiB38rxK0LLu51dz/exec";
 
 
 
