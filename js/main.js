@@ -9,7 +9,9 @@ $("#submitIOT").click(function(event) {
     var email = $.trim($("#email").val()).replace(/ /g,'');
     var hovaten = $("#hovaten").val();
     var cauhoi = $("#cauhoi").val();
-    var url = script_url + "?callback=result&masv=" + masv + "&lop=" + lop + "&email=" + email +  "&hovaten=" + hovaten + "&cauhoi=" +cauhoi + "&action=register";
+	var sdt = $("#sdt").val();
+    var url = script_url + "?callback=result&masv=" + masv + "&lop=" + lop + "&email=" + email +  "&hovaten=" + hovaten + "&cauhoi=" +cauhoi + "&sdt=" + sdt + "&action=register";
+	console.log(url);
     if (masv == '' || lop == '' )
         return alert("Vui lòng điền thông tin Tên và Mã số sinh viên");
     var result = $(".input-group #email");
